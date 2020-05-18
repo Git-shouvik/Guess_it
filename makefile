@@ -1,10 +1,10 @@
 
-title.md:title.txt
-	echo "- *Title of the project :* **GUESSING GAME** " > title.md
-	echo "- *Date and the time :* " >>title.md
-	date >> title.md
-	echo "- *Number of lines in the file "game.sh" :* " >> title.md 
-	wc -l game.sh | egrep -o "[0-9]+" >> title.md
+README.md:title.txt
+	echo "- *Title of the project :* **GUESSING GAME** " > README.md
+	echo "- *Date and the time :* " >>README.md
+	date >> README.md
+	echo "- *Number of lines in the file "game.sh" :* " >> README.md 
+	wc -l game.sh | egrep -o "[0-9]+" >> README.md
 	
 title.txt:
-	touch title.md
+	touch README.md
