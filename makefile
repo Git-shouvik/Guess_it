@@ -4,7 +4,7 @@ README.md:title.txt
 	echo "- *Date and the time :* " >>README.md
 	date >> README.md
 	echo "- *Number of lines in the file "game.sh" :* " >> README.md 
-	wc -l game.sh | egrep -o "[0-9]+" >> README.md
+	wc -l game2.sh | egrep -o "[0-9]+" >> README.md
 	
 title.txt:
 	touch README.md
